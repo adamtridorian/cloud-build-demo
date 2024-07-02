@@ -1,6 +1,5 @@
 #!/bin/bash
 cd /home/adam_boonchaya/cloud-build-demo
-git config --global --add safe.directory /home/adam_boonchaya/cloud-build-demo
 git pull
 cp -r * /var/www/html
 rm -rf /var/www/html/.git
